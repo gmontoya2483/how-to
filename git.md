@@ -30,8 +30,10 @@
 
     * alias para status  
         ```git config --global alias.s "status -s -b"```  
-    
-    
+
+    [Video curso git - Alias Lecture](https://www.udemy.com/git-github/learn/v4/t/lecture/7306470?start=75)  
+
+
 
 
 
