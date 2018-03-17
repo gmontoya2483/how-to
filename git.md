@@ -34,6 +34,10 @@
     [Video curso git - Alias Lecture](https://www.udemy.com/git-github/learn/v4/t/lecture/7306470)  
 
 
+## Ver repositorios remotos
+
+    ``git remote -v``
+
 
 
 
