@@ -36,7 +36,7 @@
 
 ## Ver repositorios remotos
 
-    ```git remote -v```
+```git remote -v```
 
 
 
