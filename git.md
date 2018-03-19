@@ -38,8 +38,38 @@
 
 ```git remote -v```
 
+## Usar Tags
 
+Un tag hace referencia a un commit y a todo el estado del proyecto en ese commit:
 
+* Crear un tag
 
+``git tag V1.0.0``
 
+* Ver los tags
 
+``git tag``
+
+* Borrar tags
+
+``git tag -d V1.0.0``
+
+* Crear tags asociados al commit actual con una descripcion
+
+``git tag -a v1.0.0 -m "Version 1.0.0"``
+
+* Crear tags asociados a un commit espacifico con una descripcion
+
+``git tag -a v0.1.0 345d7de -m "Versión alfa"``
+
+* Crear un tag que abre una consoloa para agregar un mensaje mas elaborado
+
+``git tag -a v0.1.0 345d7de``
+
+* Mostrar la información de un tag
+
+``git show v1.0.0``
+
+* Subir todos Tags al repositorio
+
+``git push --tags``
